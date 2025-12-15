@@ -5,7 +5,7 @@ const message = ref("Loading...");
 
 onMounted(async () => {
   try {
-    const response = await fetch("http://localhost:8080/hello");
+    const response = await fetch("http://localhost:8001/hello");
     message.value = await response.text();
   } catch (error) {
     console.error("Error:", error);
