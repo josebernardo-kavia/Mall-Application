@@ -1,7 +1,6 @@
 # Backend
 backend/target/
 backend/.idea/
-backend/.mvn/
 
 # Frontend
 frontend/node_modules/
