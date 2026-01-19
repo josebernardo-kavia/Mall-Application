@@ -9,3 +9,4 @@ frontend/dist/
 
 # OS files
 .DS_Store
+.file_activity_report.json
